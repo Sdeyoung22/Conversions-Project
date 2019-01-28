@@ -5,9 +5,10 @@ public class Conversions
 
 	public static void main(String[] args) 
 	{
-		Scanner input = new Scanner(System.in);
-		System.out.print("How many feet? ");
-		double feet = input.nextDouble();
+		System.out.println(feetToInches(1));
+		System.out.println(milesToFeet(1));
+		System.out.println(yardsToMeters(1));
+		System.out.println(poundsToKilograms(1));
 	}
 	public static double feetToInches(double feet)
 	{
